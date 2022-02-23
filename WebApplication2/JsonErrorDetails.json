@@ -1,0 +1,46 @@
+{
+  "Token_Header_Missing": {
+    "status": 401,
+    "detail": "The authorisation header in the request seems invalid. It's likely that the authorization header, or the bearer, or the JWT token is missing"
+  },
+  "Payload_Missing": {
+    "status": 401,
+    "detail": "The JWT token used in the request is missing with Payload part."
+  },
+  "Signature_Missing": {
+    "status": 401,
+    "detail": "The JWT token used in the request is missing with Signature part."
+  },
+  "Token_Expired": {
+    "status": 401,
+    "detail": "The alloted time for the JWT token is expired."
+  },
+  "Not_ProperToken": {
+    "status": 401,
+    "detail": "The JWT token used in the request is not a proper token."
+  },
+  "Valid_block": {
+    "status": 401,
+    "detail": "Account is in blocked state"
+  },
+  "Not_Found": {
+    "status": 401,
+    "detail": "Invalid credentials."
+  },
+  "Invalid": {
+    "status": 401,
+    "detail": "Invalid credentials."
+  },
+  "Blocked": {
+    "status": 401,
+    "detail": "Account is blocked"
+  },
+  "Unauthorized": {
+    "status": 401,
+    "detail": "Unauthorized user"
+  },
+  "Default": {
+    "status": 500,
+    "detail": "Internal Server error"
+  }
+}
